@@ -1,3 +1,5 @@
 use gem "omniauth-weibo-oauth2"
 
 this project for testing sinaweibo oauth2
+
+add your api key and api secret in config/services.yml, then change redirect_url to yours.
