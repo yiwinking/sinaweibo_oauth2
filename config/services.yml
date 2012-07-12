@@ -1,0 +1,16 @@
+common: &common
+  weibo:
+    api_key: ""
+    api_secret: ""
+    redirect_uri: "http://localhost/users/auth/weibo/callback"
+    #redirect_uri: "http://www.yourdomain.com/users/auth/weibo/callback"
+    #https://api.weibo.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&response_type=code&redirect_uri=YOUR_REGISTERED_REDIRECT_URI
+
+production:
+  <<: *common
+
+development:
+  <<: *common
+
+test:
+  <<: *common

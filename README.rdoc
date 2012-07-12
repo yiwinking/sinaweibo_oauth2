@@ -1,0 +1,3 @@
+use gem "omniauth-weibo-oauth2"
+
+this project for testing sinaweibo oauth2
